@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MathsActivity"
+    android:orientation="vertical"
+    android:background="#ddccbb">
+
+    <TextView
+        android:id="@+id/tvQuestionNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 1 out of 10"
+        android:background="#bbccaa"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="15+10 = "
+        android:layout_weight="1"
+        android:background="#bbccaa"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+    <EditText
+        android:id="@+id/etanswer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:focusable="true"
+        android:hint="00"
+        android:inputType="numberDecimal"
+        android:background="#bbccaa"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#aaccbb"
+        android:layout_margin="10dp"/>
+</LinearLayout>

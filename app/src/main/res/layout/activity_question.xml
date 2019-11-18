@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity"
+    android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rangeupto0to10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="0 - 10"/>
+        <RadioButton
+            android:id="@+id/rangeupto10to20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 - 20"/>
+        <RadioButton
+            android:id="@+id/rangeupto20to30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 - 30"/>
+        <RadioButton
+            android:id="@+id/rangeupto30to40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 - 40"/>
+        <RadioButton
+            android:id="@+id/rangeupto40to50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="40 - 50"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="#bbccaa"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:background="#bbccaa"
+        android:layout_margin="10dp"/>
+</LinearLayout>
